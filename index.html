@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport=device-width, initial-scale=1.0">
+        <title>WEB</title>
+        <link rel="stylesheet" href="style.css"></link>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <script src="https://kit.fontawesome.com/169017d797.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo" class="logo">
+                   <!--<img src="images/LOGO.png">-->
+                   DEEP NFT LAB
+                </a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="#home" class="navbar__links" id="home_bar">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#about" class="navbar__links" id="about_bar">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#Gallery" class="navbar__links" id="gallery_bar">Gallery</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#Roadmap" class="navbar__links" id="roadmap_bar">Roadmap</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#team" class="navbar__links" id="team_bar">Team</a>
+                    </li>
+                    <li class="navbar__item">
+                      <a href="#contact" class="navbar__links" id="contact_bar">Contact</a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Section 1 home-->
+            <div class="main" id="home">
+                <div class="main__container">
+                    <div class="main__content">
+                        <h1>New Collection</h1>
+                        <h2>SQUID GAME</h2>
+                        <button class="main__btn"><a href="https://opensea.io/DeepNFTLab" target="_blank">Opensea</a></button>
+                        <div class="social">
+                            <a href="https://twitter.com/Deepnft21" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/Deepnftlab/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://discord.com/channels/Deepnftlab@" target='_blank'><i class="fab fa-discord"></i></a>
+                        </div>
+                    </div>
+                    <div class="main__img--container">
+                        <img src=images/pic2.png id="main_img">
+                    </div>
+                </div>
+            </div>
+<!--------section 2 about------------->
+        
+        <div class="div_about" id="about">
+            <h1>ABOUT</h1>
+            <div class="about1">
+                <h3>SQUID GAME</h2>
+                <P>
+                  DeepNFT Lab consists of AI and Deep learning experts who love arts works. We have planned to create a block-chain based HOLD to EARN NFT platform which will reward the owners of our NFTs.
+                  Yes! All the owners will be rewarded equally from 50% of the newly listed NFT sales and resale royalties based on the number of NFTs. 
+                  We call it HOLD to EARN policy which allows the owners to have a passive-income and more liquidity and value to our NFTs. This is the way we appreciate our 
+                  NFT collectors for their contributions in building the platform.
+
+                  As a debut of DeepNFTLab, we present our first collection named SquidGamersNFTs which has only 100 exclusive NFTs cards created by meticulous hand-crafted works and AI. 
+                  There are two types of NFT cards in this collection, that are, Gamer Cards and Moment Cards. Gamer Cards represents if the main characters and other gamers PASSED or DIED in the particular Games.
+                  Bid to own your first HOLD to EARN NFTs before the auction ends.
+                </P>
+            </div>
+            <div class="about2"> 
+                <img src="images/gif.gif">
+            </div>
+        </div>
+<!--------section 3 gallery----------->
+        <div class="div_gallery" id="Gallery">
+            <h1>GALLERY</h1>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/001_P.png"></div>
+                    <div class="swiper-slide"><img src="images/118_D.png"></div>
+                    <div class="swiper-slide"><img src="images/067_P.png"></div>
+                    <div class="swiper-slide"><img src="images/250_D.png"></div>
+                    <div class="swiper-slide"><img src="images/101_P.png"></div>
+                    <div class="swiper-slide"><img src="images/309_D.png"></div>
+                    <div class="swiper-slide"><img src="images/456_P.png"></div>
+                    <div class="swiper-slide"><img src="images/324_D.png"></div>
+                </div>
+                <div class="swiper-pargination"></div>
+            </div>
+            <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPreView: 'auto',
+                coverflowEffect:{
+                    rotate:50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                pagination:{
+                    el:'.swiper-pagination',
+                },
+            });
+        </script>
+        </div>
+<!------------section Roadmap----------->
+
+        <div class="div_roadmap" id="Roadmap">
+            <h1>ROADMAP</h1>
+            <div class="wrapper">
+                <div class="center-line">
+                  <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+                </div>
+                <div class="row row-1">
+                  <section>
+                    <i class="icon fas fa-star"></i>
+                    <div class="details">
+                      <span class="title">SquidGamersNFTs</span>
+                      <span>11 Nov 2021</span>
+                    </div>
+                    <p>SquidGamersNFTs from the DeepNFT LAB - A collection of 100 unique AI generated NFTs.</p>
+                  </section>
+                </div>
+                <div class="row row-2">
+                  <section>
+                    <i class="icon fas fa-star"></i>
+                    <div class="details">
+                      <span class="title">Art collection</span>
+                      <span>Dec 2021</span>
+                    </div>
+                    <p>Art NFTs from the DeepNFT LAB - A collection of 10000 unique AI generated NFTs.</p>
+                  </section>
+                </div>
+                <div class="row row-1">
+                  <section>
+                    <i class="icon fas fa-star"></i>
+                    <div class="details">
+                      <span class="title">New Model Collection</span>
+                      <span>Jan 2022</span>
+                    </div>
+                    <p>New model NFTs from the DeepNFT LAB - A collection of 10000 unique AI generated NFTs.</p>
+                  </section>
+                </div>
+                <div class="row row-2">
+                  <section>
+                    <i class="icon fas fa-star"></i>
+                    <div class="details">
+                      <span class="title">3D modeols Collection</span>
+                      <span>Mar 2022</span>
+                    </div>
+                    <p>3D models NFTs from the DeepNFT LAB - A collection of 10000 unique AI generated NFTs.</p>
+                  </section>
+                </div>
+                <div class="row row-1">
+                  <section>
+                    <i class="icon fas fa-star"></i>
+                    <div class="details">
+                      <span class="title">To be continued</span>
+                      <span>......</span>
+                    </div>
+                    <p>......</p>
+                  </section>
+                </div>
+            </div>
+        </div>
+
+<!------------section TEAM------------------>
+        
+        <div class="bg">
+            <div class="div_team" id="team">
+              <h1>TEAM</h1>
+              <p>
+                
+              </p>
+              <!--
+              <div class="team">
+                  
+                  <img src="./images/lion_pro.png" alt="">
+                  <div class="info">
+                      <div class="name">CEO</div>
+                      <div class="title">DEEP NFT LAB</div>
+                  </div>
+              </div>
+              <div class="team">
+                
+                  <img src="./images/lion_pro.png" alt="">
+                  <div class="info">
+                      <div class="name">DESINER</div>
+                      <div class="title">DEEP NFT LAB</div>
+                  </div>
+              </div>
+              <div class="team">
+                
+                  <img src="./images/lion_pro.png" alt="">
+                  <div class="info">
+                      <div class="name">AI ENGINEER</div>
+                      <div class="title">DEEP NFT LAB</div>
+                  </div>-
+              </div>
+              <div class="team">
+                
+                  <img src="./images/lion_pro.png" alt="">
+                  <div class="info">
+                      <div class="name">AI ENGINEER</div>
+                      <div class="title">DEEP NFT LAB</div>
+                  </div>
+              </div>-->
+            </div>
+        </div>
+<!----------------Contact--------------------->
+        <div class="bg">
+          <div class="div_team" id="contact">
+            <h1>CONTACT</h1>
+            <div class="social">
+              <a href="https://twitter.com/Deepnft21" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/Deepnftlab/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://discord.com/channels/Deepnftlab@" target='_blank'><i class="fab fa-discord"></i></a>
+          </div>
+          </div>
+        </div>
+        <script src="app.js"> </script>
+    </body>
+</html>
