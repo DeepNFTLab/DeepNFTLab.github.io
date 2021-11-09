@@ -477,12 +477,11 @@
 }
 
 .wrapper{
-    max-width: 1080px;
-    margin: 50px 50px;
+    width: 70%;
+    margin: 40px 40px;
     margin-top: 10%;
     padding: 0 20px;
     position: relative;
-
   }
   .wrapper .center-line{
     position: absolute;
